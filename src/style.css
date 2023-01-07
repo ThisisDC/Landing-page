@@ -1,0 +1,235 @@
+body{
+display: flex;
+flex-direction: column;
+margin: 0px;
+min-height: 100vh;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+a{
+text-decoration: none;
+color: gray;
+
+}
+
+.headerandupppage{
+    background-color: #1f2937;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 160px;
+    justify-content: flex-start;
+
+
+
+}
+
+.upperpage{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+padding-top: 50px;
+padding-bottom: 20px;
+
+}
+
+
+
+.leftside{
+    padding: 0px 30px;
+    color:aliceblue;
+
+
+}
+
+.leftside p{
+    width: 250px;
+}
+
+.midpage h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.midpage{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.bigtitle{
+    display: flex;
+    
+}
+.couples{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 0;
+
+
+}
+.couple{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 40px;
+
+}
+
+.subtitle{
+width: 150px;
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.image{
+    width: 120px;
+    height:120px;
+    border-radius: 10%;
+}
+
+.rightside img{
+max-width: 400px;
+}
+
+.signup{
+background-color: dodgerblue;
+width: 85px;
+border-radius: 5px;
+border-color: dodgerblue;
+border: none;
+color: white;
+padding: 4px 5px;
+}
+
+.navbar{
+height: 50px;
+align-items: flex-start;
+margin-left: 20px;
+}
+.navbar ul{
+list-style-type: none;
+display: flex;
+color: gray;
+margin-right: 0;
+margin: 30px 0;
+}
+
+li{
+    margin: 8px;
+
+}
+
+.header{
+display: flex;
+justify-content: space-between;
+
+
+}
+.headerlogo{
+    margin-top: 22px;
+    margin-left: 34px;
+}
+
+.logo{
+    height: 100%;
+    width: 70px;
+    border-radius:50px;
+
+}
+
+.ciccio{
+    border-radius: 5%;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    margin: 30px 0px;
+    align-items: center;
+    justify-content: center;
+    padding:50px 250px;
+    font-style: italic;
+
+}
+
+.textofquote{
+    display: flex;
+    width: 500px;
+    font-size: 30px;
+    flex-wrap: wrap;
+
+    
+    
+}
+
+.sign{
+    display: flex;
+    position: relative;
+    left: 150px;
+    top: -30px;
+    font-weight: bold;
+    
+}
+
+.squaredrettangle{
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    max-height: 100px;
+    width: 500px;
+    align-self: center;
+    padding: 20px 50px;
+    margin: 50px 100px;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.leftside{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.squaredrettangle h4{
+    margin-top: 5px;
+margin-bottom: 3px;
+font-size: 15px;
+}
+
+.squaredrettangle p{
+display: flex;
+width: 300px;
+margin-top: 0px;
+margin-bottom: 5px;
+font-size: 10px;
+
+}
+.squaredrettangle button{
+height: 20px;
+display: flex;
+align-self: center;
+justify-content: center;
+align-content: center;
+border: 10px white;
+color: white;
+
+}
+
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    margin-top: auto;
+    height: 90px;
+    color: white;
+    justify-content: center;
+    align-items: center ;
+}
