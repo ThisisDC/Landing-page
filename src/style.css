@@ -46,7 +46,7 @@ a {
 
 .mobile-bar ul li {
   margin-bottom: 10px;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
 }
 
@@ -158,13 +158,10 @@ a {
   width: 100%;
   border-radius: 20px;
   transition: filter 0.5s ease-in;
-  filter: drop-shadow(0 0 3px rgb(248, 248, 248));
+  filter: drop-shadow(0 0 10px rgb(248, 248, 248));
 }
 
-.upper-page-left-side .image:hover {
-  filter: drop-shadow(0 0 30px rgb(248, 248, 248));
-  transition: filter 1s ease-out;
-}
+
 
 .upper-page-right-side {
   display: flex;
@@ -205,13 +202,14 @@ a {
 
 .mid-page {
   background-color: #ccc;
-  border-radius: 50px;
+  border-radius: 20px;
+  margin-top: 10px;
 }
 
 .mid-page h3 {
   text-align: center;
-  font-size: 22px;
-  margin-top: 40px;
+  font-size: 20px;
+  margin-top: 25px;
 }
 
 .images-list {
@@ -238,12 +236,11 @@ a {
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   aspect-ratio: 16/9;
   overflow: hidden;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 .images-list li img {
   width: 100%;
-  border-radius: 20px;
   overflow: hidden;
 }
 
@@ -274,8 +271,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .enroll-section h4 {
