@@ -158,10 +158,12 @@ a {
   width: 100%;
   border-radius: 20px;
   transition: filter 0.5s ease-in;
-  filter: drop-shadow(0 0 10px rgb(248, 248, 248));
+  filter: drop-shadow(0 0 7px rgb(248, 248, 248));
 }
 
-
+.upper-page-left-side .image:hover {
+  filter: drop-shadow(0 0 15px rgb(248, 248, 248));
+}
 
 .upper-page-right-side {
   display: flex;
