@@ -45,7 +45,7 @@ a {
 }
 
 .mobile-bar ul li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 30px;
   color: white;
 }
@@ -173,6 +173,7 @@ a {
 }
 
 .upper-page-right-side .title {
+  font-size: 22px;
 }
 
 .upper-page-right-side .description {
@@ -201,7 +202,7 @@ a {
 }
 
 .mid-page {
-  background-color: #ccc;
+  background-color: white;
   border-radius: 20px;
   margin-top: 10px;
 }
@@ -245,7 +246,7 @@ a {
 }
 
 .quote-div {
-  background-color: #ccc;
+  color: white;
   margin-top: 40px;
   padding-left: 20px;
   padding-top: 10px;
@@ -404,7 +405,7 @@ a {
   }
 
   .mid-page h3 {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .images-list {
