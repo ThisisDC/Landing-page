@@ -1,1 +1,1 @@
-website: https://thisisdc.github.io/Landing-page/
+website: https://thisisdc.github.io/landing-page/
