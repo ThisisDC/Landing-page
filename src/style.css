@@ -73,6 +73,7 @@ a {
   display: flex;
   align-items: center;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 /* Bar button */
 #mobile-bar-button {
@@ -111,7 +112,7 @@ a {
 }
 
 #row1.open {
-  transform: translate(0px, 6px) rotate(45deg);
+  transform: translate(0px, 7px) rotate(45deg);
   width: 90%;
   transition: transform 0.2s ease-in;
 }
@@ -158,7 +159,7 @@ a {
   width: 100%;
   border-radius: 20px;
   transition: filter 0.5s ease-in;
-  filter: drop-shadow(0 0 7px rgb(248, 248, 248));
+  filter: drop-shadow(0 0 3px rgb(248, 248, 248));
 }
 
 .upper-page-left-side .image:hover {
@@ -272,7 +273,7 @@ a {
   background-color: #01b7ff;
   padding-bottom: 40px;
   color: white;
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
