@@ -54,6 +54,13 @@ a {
   background-color: white;
   color: #01b7ff;
   width: 90%;
+  transition: box-shadow 0.5s ease;
+}
+
+.mobile-bar ul .signup-button:hover,
+.mobile-bar ul .signup-button:active {
+  transition: box-shadow 0.5s ease;
+  box-shadow: white 0px 0px 15px;
 }
 
 .mobile-bar.open {
@@ -213,7 +220,7 @@ a {
 .mid-page h3 {
   text-align: center;
   font-size: 25px;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 .images-list {
@@ -232,9 +239,9 @@ a {
 }
 
 .images-list li p {
-  font-size: 15px;
-    color: #464646;
-
+  text-align: center;
+  font-size: 18px;
+  color: #464646;
 }
 
 .image-container {
@@ -337,7 +344,8 @@ a {
     aspect-ratio: 1/1;
     min-width: 100px;
     height: 100px;
-    overflow: hidden;  }
+    overflow: hidden;
+  }
 
   .logo-image {
     height: 100%;
@@ -437,7 +445,8 @@ a {
   }
 
   .images-list li p {
-    font-size: 50%;
+    text-align: center;
+    font-size: 18px;
     position: absolute;
     width: 100%;
   }
